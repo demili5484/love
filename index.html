@@ -1,229 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loveloop</title>
-    <link rel="preconnect" href="https://images.unsplash.com" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="topbar">
-      <a class="brand" href="#" aria-label="Loveloop 홈">
-        <span class="brand-mark">L</span>
-        <span>Loveloop</span>
-      </a>
-      <nav class="nav" aria-label="주요 메뉴">
-        <a href="#discover">탐색</a>
-        <a href="#nearby">근처</a>
-        <a href="#stories">스토리</a>
-        <a href="#premium">프리미엄</a>
-      </nav>
-      <div class="top-actions">
-        <button class="icon-button" aria-label="알림">7</button>
-        <button class="primary-button">프로필 시작</button>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 올드스쿨 야구장</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>온라인 올드스쿨 야구장</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="#">게임 목록</a></li>
+                <li><a href="#">랭킹</a></li>
+                <li><a href="#">문의</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-media" aria-hidden="true">
-          <img
-            src="https://images.unsplash.com/photo-1630264884875-c8ff849ba4b7?auto=format&fit=crop&w=1600&q=80"
-            alt=""
-          />
-        </div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <p class="eyebrow">오늘 서울에서 활발한 싱글 커뮤니티</p>
-          <h1 id="hero-title">Loveloop</h1>
-          <p class="hero-copy">
-            취향, 거리, 라이프스타일을 기준으로 지금 대화 가능한 사람들을 빠르게
-            만나보세요.
-          </p>
-          <div class="hero-actions">
-            <button class="primary-button large">지금 둘러보기</button>
-            <button class="ghost-button large">인기 회원 보기</button>
-          </div>
-          <div class="hero-stats" aria-label="서비스 활동 현황">
-            <span><strong>12,482</strong>명 접속 중</span>
-            <span><strong>3,914</strong>건 오늘 매칭</span>
-            <span><strong>86%</strong> 답장률</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="activity-strip" aria-label="실시간 활동">
-        <div>
-          <strong>방금 전</strong>
-          <span>서연님이 프로필 사진을 업데이트했어요</span>
-        </div>
-        <div>
-          <strong>1분 전</strong>
-          <span>강남 2km 안에서 48명이 새로 접속했어요</span>
-        </div>
-        <div>
-          <strong>3분 전</strong>
-          <span>오늘의 추천 프로필 192개가 열렸어요</span>
-        </div>
-      </section>
-
-      <section class="workspace" id="discover">
-        <aside class="filters" aria-label="검색 필터">
-          <div class="panel-header">
-            <h2>필터</h2>
-            <button>초기화</button>
-          </div>
-          <label>
-            지역
-            <select>
-              <option>서울 전체</option>
-              <option>강남 / 서초</option>
-              <option>홍대 / 합정</option>
-              <option>성수 / 건대</option>
-            </select>
-          </label>
-          <label>
-            관심사
-            <select>
-              <option>취향이 비슷한 사람</option>
-              <option>주말 데이트</option>
-              <option>운동 / 러닝</option>
-              <option>전시 / 공연</option>
-            </select>
-          </label>
-          <div class="range-row">
-            <span>거리</span>
-            <strong>10km</strong>
-          </div>
-          <input type="range" min="1" max="50" value="10" />
-          <div class="toggle-row">
-            <span>지금 접속 중</span>
-            <input type="checkbox" checked aria-label="지금 접속 중만 보기" />
-          </div>
-          <div class="mini-card">
-            <span class="status-dot"></span>
-            <div>
-              <strong>오늘 추천</strong>
-              <p>내 취향과 가까운 프로필 38명</p>
-            </div>
-          </div>
-        </aside>
-
-        <section class="main-panel">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Discover</p>
-              <h2>지금 인기 있는 회원</h2>
-            </div>
-            <div class="segmented-control" aria-label="정렬">
-              <button class="active">추천</button>
-              <button>근처</button>
-              <button>신규</button>
-            </div>
-          </div>
-
-          <div class="profile-grid" aria-label="회원 목록">
-            <article class="profile-card featured">
-              <img src="https://images.unsplash.com/photo-1589525231707-f2de2428f59c?auto=format&fit=crop&w=900&q=80" alt="민서 프로필" />
-              <div class="profile-info">
-                <span class="online">접속 중</span>
-                <h3>민서, 29</h3>
-                <p>브런치, 전시, 한강 산책</p>
-                <div class="match-row"><span>94% 매칭</span><button>좋아요</button></div>
-              </div>
-            </article>
-            <article class="profile-card">
-              <img src="https://images.unsplash.com/photo-1635353775931-1a6464be72cb?auto=format&fit=crop&w=900&q=80" alt="지안 프로필" />
-              <div class="profile-info">
-                <span class="online">접속 중</span>
-                <h3>지안, 27</h3>
-                <p>러닝 크루, 와인바</p>
-                <div class="match-row"><span>91% 매칭</span><button>좋아요</button></div>
-              </div>
-            </article>
-            <article class="profile-card">
-              <img src="https://images.unsplash.com/photo-1681097561932-36d0df02b379?auto=format&fit=crop&w=900&q=80" alt="도윤 프로필" />
-              <div class="profile-info">
-                <span class="online">접속 중</span>
-                <h3>도윤, 31</h3>
-                <p>등산, 재즈, 커피</p>
-                <div class="match-row"><span>89% 매칭</span><button>좋아요</button></div>
-              </div>
-            </article>
-            <article class="profile-card">
-              <img src="https://images.unsplash.com/photo-1604212485216-3397090e9825?auto=format&fit=crop&w=900&q=80" alt="하린 프로필" />
-              <div class="profile-info">
-                <span>12분 전</span>
-                <h3>하린, 26</h3>
-                <p>필름 사진, 맛집 탐방</p>
-                <div class="match-row"><span>87% 매칭</span><button>좋아요</button></div>
-              </div>
-            </article>
-            <article class="profile-card">
-              <img src="https://images.unsplash.com/photo-1577807002746-2aa23cf2d134?auto=format&fit=crop&w=900&q=80" alt="준호 프로필" />
-              <div class="profile-info">
-                <span class="online">접속 중</span>
-                <h3>준호, 32</h3>
-                <p>캠핑, 요리, 드라이브</p>
-                <div class="match-row"><span>85% 매칭</span><button>좋아요</button></div>
-              </div>
-            </article>
-            <article class="profile-card">
-              <img src="https://images.unsplash.com/photo-1635353692890-80a6b95add47?auto=format&fit=crop&w=900&q=80" alt="유나 프로필" />
-              <div class="profile-info">
-                <span>24분 전</span>
-                <h3>유나, 28</h3>
-                <p>요가, 책방, 여행</p>
-                <div class="match-row"><span>84% 매칭</span><button>좋아요</button></div>
-              </div>
-            </article>
-          </div>
+        <section class="hero">
+            <h2>즐거운 야구 게임 체험</h2>
+            <p>온라인 올드스쿨 야구장에서 다양한 야구 게임을 즐겨보세요!</p>
         </section>
-      </section>
 
-      <section class="split-section" id="nearby">
-        <div>
-          <p class="eyebrow">Nearby</p>
-          <h2>내 주변의 활발한 대화</h2>
-          <p>
-            실제 데이터 연동 없이도 서비스가 살아 있는 것처럼 보이도록 최근 접속,
-            신규 가입, 프로필 완성도, 관심사 태그를 화면 곳곳에 배치했습니다.
-          </p>
-        </div>
-        <div class="live-list">
-          <div><span class="avatar a1"></span><strong>성수동</strong><p>현재 접속 328명</p></div>
-          <div><span class="avatar a2"></span><strong>강남역</strong><p>오늘 매칭 612건</p></div>
-          <div><span class="avatar a3"></span><strong>홍대입구</strong><p>신규 프로필 147명</p></div>
-        </div>
-      </section>
-
-      <section class="stories" id="stories">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Stories</p>
-            <h2>오늘 올라온 스토리</h2>
-          </div>
-          <button class="ghost-button">전체 보기</button>
-        </div>
-        <div class="story-row">
-          <article><img src="https://images.unsplash.com/photo-1716798084682-decdb59ca364?auto=format&fit=crop&w=600&q=80" alt="스토리 이미지" /><span>연남동 카페</span></article>
-          <article><img src="https://images.unsplash.com/photo-1630264884875-c8ff849ba4b7?auto=format&fit=crop&w=600&q=80" alt="스토리 이미지" /><span>퇴근 후 산책</span></article>
-          <article><img src="https://images.unsplash.com/photo-1580171542477-451bb1c67267?auto=format&fit=crop&w=600&q=80" alt="스토리 이미지" /><span>주말 드라이브</span></article>
-          <article><img src="https://images.unsplash.com/photo-1609224871627-4f69e57d9380?auto=format&fit=crop&w=600&q=80" alt="스토리 이미지" /><span>공방 데이트</span></article>
-        </div>
-      </section>
-
-      <section class="premium" id="premium">
-        <div>
-          <p class="eyebrow">Premium</p>
-          <h2>더 많은 프로필을 먼저 확인하세요</h2>
-          <p>상단 노출, 무제한 좋아요, 읽음 확인, 관심사 우선 매칭 UI를 포함했습니다.</p>
-        </div>
-        <button class="primary-button large">프리미엄 보기</button>
-      </section>
+        <section class="games">
+            <h3>게임 목록</h3>
+            <p>현재 게임 목록은 준비 중입니다. 곧 업데이트될 예정입니다.</p>
+        </section>
     </main>
 
+    <footer>
+        <p>&copy; 2026 온라인 올드스쿨 야구장</p>
+    </footer>
+
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
