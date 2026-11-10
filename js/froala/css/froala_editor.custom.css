@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*
+* Froala Editor Custom
+*/
+
+
+.froala-body .fr-box.fr-top.fr-basic{border:1px solid #e4e4e4}
+.froala-body .fr-box.fr-basic .fr-element{height:100% !important;font-size:17px;line-height:1.8em;font-family:"Roboto","Noto Sans",sans-serif;text-align:left;word-break:break-all; overflow-x: hidden;}
+.froala-body .fr-box.fr-basic .fr-element *{letter-spacing:-.02em;font-family:"Roboto","Noto Sans",sans-serif;}
+.froala-body .fr-box.fr-basic.fr-top .fr-wrapper{box-shadow:none;}
+.froala-body  em{font-style:italic}
+.froala-body  ol{margin:1em 0;padding:0;}
+.froala-body  ol li{padding:0;list-style-type:decimal;font-size:17px;font-weight:300;margin:0 0 .4em 1.25em;line-height:1.8em;color:#44484B;}
+
+/* 툴바 드롭박스 */
+.froala-body .fr-dropdown-list h2,
+.froala-body .fr-box.fr-basic .fr-element h2{margin:2em 0 1em;padding:0;font-size:28px;text-align:left;line-height:1.4em;color:#292c33;font-weight:500;word-break: keep-all;}
+.froala-body .fr-dropdown-list h2{margin:0}
+.froala-body .fr-dropdown-list h4,
+.froala-body .fr-box.fr-basic .fr-element h4{margin:2em 0 1em;padding:0;font-size:20px;text-align:left;line-height:1.4em;color:#292c33;font-weight:500;word-break: keep-all;}
+.froala-body .fr-dropdown-list h4{margin:0}
+
+.froala-body ul{margin:12px 0;}
+.froala-body ul li{padding:0;list-style-type:disc;font-size:17px;font-weight: 300;margin:0 0 8px 20px;line-height:1.65em;color:#1D2129;}
+.froala-body a{color:#557cf2;transition:color .3s;word-wrap:break-word;word-break:break-all;}
+.froala-body a:hover,
+.froala-body a:active{color:#395bbf;text-decoration:underline;}
+.froala-body u{text-decoration:none;border-bottom:2px solid #e8136d}
+.froala-body p{padding:0;font-size:17px;font-weight:350;line-height:1.65em;color:#292c33;word-wrap:break-word;}
+.froala-body hr{margin:48px auto 40px;width:220px;border:0;border-top:1px solid #dadce0}
+.froala-body q{display:block;font-size:14px;font-weight:300;text-align:center !important}
+.froala-body blockquote{display:block;padding:0;margin:1em 0;line-height:1.8em;font-size:14px;font-weight:300;text-align:center !important;color:#292c33 !important;border-left:0;}
+.froala-body q::before{content:"";}
+.froala-body q::after{content:"";}
+.froala-body blockquote.type-default {width: 100%; max-width: 480px; margin: 0 auto; border-left: 0; padding-left: 0;}
+.froala-body blockquote.type-default::before {content:'\E9F1'; display: block; margin: 40px auto 12px; width: 24px; height: 24px; font-size: 24px; line-height: 1; color: #babdc0}
+.froala-body blockquote.type-default::after {content:'\E9F0'; display: block; margin: 12px auto 40px; width: 24px; height: 24px; font-size: 24px; line-height: 1; color: #babdc0}
+.froala-body blockquote.type-default p{padding:0;margin:0; font-weight: 200; text-align: center; color: #44484b; font-size: 24px; line-height:1.33; letter-spacing: -0.5px;  word-spacing: normal; word-break: keep-all;}
+.froala-body blockquote.type-line,
+/* .froala-body blockquote{padding:0;margin:1em 0;padding-left:14px;font-size:17px;line-height:1.8em;font-weight:300;color:#60656A;border-left:2px solid #90949C;} */
+.froala-body blockquote.type-line p,
+.froala-body blockquote p{margin:0;padding-left:5px;font-size:16px;line-height:1.75;font-weight:300;color:#60656A;text-align:left !important;border-left:2px solid #515151;}
+.froala-body blockquote h2{padding-left:14px !important;text-align:left !important;border-left:2px solid #515151;border-bottom:0;}
+.froala-body blockquote h4{padding-left:14px !important;text-align:left !important;border-left:2px solid #515151;}
+
+/* 타이틀 */
+.froala-body h2,
+.froala-body h2{margin:2em 0 1em;padding:0;font-size:28px;text-align:left;line-height:1.4em;color:#292c33;font-weight:700;word-break: keep-all;}
+.froala-body h4,
+.froala-body h4{margin:2em 0 1em;padding:0;font-size:20px;text-align:left;line-height:1.4em;color:#292c33;font-weight:400;word-break: keep-all;}
+.froala-body h3{color:#292c33;font-size:24px;font-weight:400;line-height:24px;}
+.froala-body h4{color:#292c33;font-size:24px;}
+.froala-body strong,
+.froala-body b{font-weight:700 !important}
+
+.froala-body figure{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0;}
+.froala-body img{display:block;margin:12px auto;text-align:center;width:100% !important;height:auto !important;max-width:100% !important;}
+.froala-body .fr-video{display:block;margin:12px 0;width:100%;position:relative;padding-bottom:47%;padding-top:30px;height:0;overflow:hidden;}
+.froala-body .fr-video iframe,
+.froala-body .fr-video object,
+.froala-body .fr-video embed{position:absolute;top:0;left:0;width:100% !important;height:100% !important;}
+.froala-body.fr-toolbar .fr-command.fr-btn i.fa-font{background:#99ffe4;}
+.froala-body.fr-popup .fr-input-line input.fr-not-empty + label{line-height:14px;}
+.froala-body.fr-box.fr-basic .fr-element strong,
+.froala-body.fr-box.fr-basic .fr-element b{font-weight:700 !important}
+
+.froala-body table{table-layout:fixed;border:none;margin:24px 0;border-collapse:collapse;empty-cells:show;width:100%;}
+@media only screen and (max-width: 669px) {
+	/*.froala-body table{width:inherit !important;}*/
+}
+.froala-body table.froala-table-vertical th,
+.froala-body table.froala-table-vertical td{border-left:none;border-right:none;}
+.froala-body table.fr-alternate-rows th,
+.froala-body table.fr-alternate-rows td{border-left:none;border-right:none;}
+.froala-body table.fr-alternate-rows tbody tr:nth-child(2n){background:#f5f5f5;}
+.froala-body table.fr-dashed-borders td,
+.froala-body table.fr-dashed-borders th{border-style:dashed;padding:4px 6px !important;}
+.froala-body table td,
+.froala-body table th{font-size:14px;line-height:1.4em;border:1px solid #DADCE0;font-weight:400;padding:4px 6px !important;word-wrap:break-word;word-break:break-all;}
+.froala-body table th, .inner-contents table td.head-cell{background:#E6EAED;font-weight:700;}
+.froala-body table td img{margin:auto;padding:0;width:auto !important;height:auto !important;min-width:auto !important}
+.froala-body table td:empty,
+.froala-body table th:empty{height: 24px;}
+.froala-body table td.fr-highlighted,
+.froala-body table th.fr-highlighted{border:1px double red;}
+.froala-body table td.fr-thick,
+.froala-body table th.fr-thick{border-width:2px;}
+.froala-body table p {margin:0;font-size:14px;color:#000;font-weight:400;line-height:1.4em;}
+.fr-view img {
+  width: auto;
+}

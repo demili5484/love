@@ -1,0 +1,990 @@
+@charset "UTF-8";
+body {
+  font-family: 'Roboto', 'Noto Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #353535;
+}
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 14px;
+  }
+}
+h2 {
+  font-size: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 8px;
+} /* } import/text-guide */
+@media only screen and (max-width: 1023px) {
+  h2 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  h2 {
+    font-size: 16px;
+    line-height: 137.5%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  h2 {
+    font-size: 16px;
+    line-height: 137.5%;
+  }
+}
+h2 small {
+  font-size: 14px;
+  margin-left: 16px;
+  color: #8a8f99;
+  font-weight: 400;
+}
+@media only screen and (max-width: 1023px) {
+  h2 small {
+    display: none;
+  }
+}
+/* } import/colorset */
+input::-webkit-input-placeholder {
+  color: #e1e1e1;
+}
+.post-write-btn {
+  display: inline-block;
+  color: #292c33;
+  text-align: center;
+  background-color: #f6f6f6;
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+}
+.post-write-btn-white {
+  display: inline-block;
+  color: #292c33;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #b8becc;
+  border-radius: 4px;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 9px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+}
+.table-head-focused {
+  background-color: #f4f4f4 !important;
+}
+.foldable-details {
+  display: none;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.align-center {
+  text-align: center;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn1000 {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+.fadeIn500 {
+  -webkit-animation: fadein 0.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 0.5s;
+  /* Internet Explorer */
+  -o-animation: fadein 0.5s;
+  /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+.fadeIn {
+  -webkit-animation: fadein 0.2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 0.2s;
+  /* Internet Explorer */
+  -o-animation: fadein 0.2s;
+  /* Opera < 12.1 */
+  animation: fadein 0.2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*slideDown*/
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-20%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(30%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+.slideLeft {
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  visibility: visible !important;
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+} /* } import/mixin */
+.login-popup h2 {
+  color: #292c33;
+  text-indent: 5px;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+/* 개발완료 후 user-register.less는 제거해도 됩니다 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  color: #45474d;
+}
+ul,
+ol {
+  list-style: none;
+}
+ul::after,
+ol::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 회원가입 공통 css */
+#signUp-form-container {
+  padding-top: 0;
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+#signUp-form-container #signUp-form {
+  margin: 0 auto;
+  width: 320px;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-form-container #signUp-form {
+    width: 100%;
+  }
+}
+#signUp-form-container #signUp-form div.signup-title {
+  padding-top: 120px;
+  text-align: center;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-form-container #signUp-form div.signup-title {
+    padding-top: 75px;
+  }
+}
+#signUp-form-container #signUp-form div.signup-title h2 {
+  color: #292c33;
+  font-size: 24px;
+  line-height: 1.5;
+}
+#signUp-form-container #signUp-form div.signup-title h2 span {
+  color: #6666ff;
+}
+#signUp-form-container #signUp-form div.signup-title p {
+  margin-top: 16px;
+  color: #475066;
+  font-size: 14px;
+}
+#signUp-form-container #signUp-form div.signup-body {
+  padding: 50px 0 0;
+}
+/* sns회원가입 */
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS {
+  margin: 0 auto;
+  padding-bottom: 90px;
+  width: 260px;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li {
+  margin-bottom: 10px;
+  width: 260px;
+  height: 50px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li a {
+  padding: 13px 15px 15px 60px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.facebook {
+  background: #3e67b8 url("../img/socialMedia/signup-facebook.png") no-repeat 0;
+  background-size: 24px;
+  background-position: left 20px center;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.facebook a {
+  color: #fff;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.naver {
+  background: #00bd39 url("../img/socialMedia/signup-naver.png") no-repeat 0;
+  background-size: 24px;
+  background-position: left 20px center;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.naver a {
+  color: #fff;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.kakao {
+  background: #fdd800 url("../img/socialMedia/signup-kakao.png") no-repeat 0;
+  background-size: 24px;
+  background-position: left 20px center;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.kakao a {
+  color: #381e1f;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.google {
+  background: #fff url("../img/socialMedia/signup-google.png") no-repeat 0;
+  background-size: 24px;
+  background-position: left 20px center;
+  border: 1px solid #dadde6;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.google a {
+  color: #292c33;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.devider {
+  position: relative;
+  margin: 20px 0;
+  padding: 15px;
+  text-align: center;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.devider span {
+  display: block;
+  color: #6b7799;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.devider span::before {
+  position: absolute;
+  top: 53%;
+  left: 0;
+  content: "";
+  width: 114px;
+  height: 1px;
+  background-color: #ddd;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.devider span::after {
+  position: absolute;
+  top: 53%;
+  right: 0;
+  content: "";
+  width: 114px;
+  height: 1px;
+  background-color: #ddd;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.email {
+  background-color: #827fff;
+}
+#signUp-form-container #signUp-form div.signup-body ul.select-accountSNS li.email a {
+  color: #fff;
+  padding: 13px 15px 15px;
+  text-align: center;
+}
+#signUp-form-container #signUp-form div.signup-btn a.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+#signUp-form-container #signUp-form div.signup-btn a.next-btn {
+  margin: 80px auto 20px;
+  color: #fff;
+  background-color: #f8136a;
+  pointer-events: none;
+  opacity: 0.5;
+}
+#signUp-form-container #signUp-form div.signup-btn a.next-btn.active {
+  pointer-events: auto;
+  opacity: 1;
+}
+#signUp-form-container #signUp-form div.signup-btn a.back-btn {
+  color: #475066;
+}
+/* 회원유형 선택 카드 디자인 */
+div.selType-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+div.selType-wrapper div.selType {
+  position: relative;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #b8becc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1023px) {
+  div.selType-wrapper div.selType {
+    margin: 0 auto;
+    float: none;
+  }
+}
+div.selType-wrapper div.selType:first-child {
+  margin-bottom: 20px;
+}
+div.selType-wrapper div.selType.active {
+  background-color: #827fff;
+  border: 0;
+}
+div.selType-wrapper div.selType.active h3 {
+  color: #fff;
+}
+div.selType-wrapper div.selType.active p {
+  color: #fff;
+}
+/*각 카드 배경이미지*/
+div.selType-wrapper div.selType.investor div::before {
+  background: url("../img/icon/icon-investor.png") no-repeat 0;
+  background-position: center;
+  background-size: 100%;
+}
+div.selType-wrapper div.selType.fundingmaker div::before {
+  background: url("../img/icon/icon-maker.png") no-repeat 0;
+  background-position: center;
+  background-size: 100%;
+}
+div.selType-wrapper div.selType input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+div.selType-wrapper div.selType input[type="radio"]:checked ~ h3 {
+  color: #fff;
+}
+div.selType-wrapper div.selType label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+div.selType-wrapper div.selType div {
+  position: relative;
+  padding-left: 90px;
+  text-align: left;
+}
+div.selType-wrapper div.selType div::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+div.selType-wrapper div.selType h3 {
+  margin-bottom: 5px;
+  color: #292c33;
+  font-size: 18px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+div.selType-wrapper div.selType p {
+  color: #45474d;
+  font-size: 12px;
+  word-break: keep-all;
+}
+/* 회원가입 정보입력 */
+/*약관동의*/
+div.signup-body form#createAccountForm div.agreement div.input-chkAll {
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #e5e5ff;
+  border-radius: 4px;
+  border: 1px solid #b3b2ff;
+}
+div.signup-body form#createAccountForm div.agreement div.input-chkAll label {
+  width: 100% !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 320px) {
+  div.signup-body form#createAccountForm div.agreement div.input-chkAll label {
+    font-size: 16px !important;
+  }
+}
+div.signup-body form#createAccountForm div.agreement ul {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #dadde6;
+}
+div.signup-body form#createAccountForm div.agreement ul li {
+  border-top: 1px solid #dadde6;
+  box-sizing: border-box;
+}
+div.signup-body form#createAccountForm div.agreement ul li:first-child {
+  border-top: 0;
+}
+div.signup-body form#createAccountForm div.agreement ul + div.warning {
+  text-align: center;
+}
+div.signup-body form#createAccountForm div.agreement ul + div.warning p {
+  display: inline-block;
+}
+/*체크박스 공통*/
+div.signup-body form#createAccountForm div.agreement div.input-chk {
+  position: relative;
+}
+div.signup-body form#createAccountForm div.agreement div.input-chk input[type="checkbox"] {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+div.signup-body form#createAccountForm div.agreement div.input-chk input[type="checkbox"]:checked + label {
+  background: url("../img/buttons/selection/check-select.svg") no-repeat;
+  background-size: 24px;
+  background-position: left 20px center;
+}
+div.signup-body form#createAccountForm div.agreement div.input-chk label {
+  display: inline-block;
+  padding-left: 60px;
+  width: 80%;
+  color: #45474c;
+  font-size: 14px;
+  line-height: 60px;
+  background: url("../img/buttons/selection/check-unselect.svg") no-repeat;
+  background-size: 24px;
+  background-position: left 20px center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+@media only screen and (max-width: 320px) {
+  div.signup-body form#createAccountForm div.agreement div.input-chk label {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  div.signup-body form#createAccountForm div.agreement div.input-chk label {
+    padding-left: 45px;
+    background-position: left 10px center;
+  }
+}
+div.signup-body form#createAccountForm div.agreement div.input-chk label span {
+  padding-left: 5px;
+  color: #db0f5d;
+  font-size: 14px;
+}
+div.signup-body form#createAccountForm div.agreement div.input-chk label span.option {
+  color: #45474c;
+}
+@media only screen and (max-width: 320px) {
+  div.signup-body form#createAccountForm div.agreement div.input-chk label span {
+    font-size: 12px;
+  }
+}
+div.signup-body form#createAccountForm div.agreement div.input-chk button.view-agreement {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+  color: #6666ff;
+  font-size: 12px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1023px) {
+  div.signup-body form#createAccountForm div.agreement div.input-chk button.view-agreement {
+    right: 6px;
+  }
+}
+/*정보입력*/
+div.signup-body form#createAccountForm div.info-field {
+  margin-top: 50px;
+}
+div.signup-body form#createAccountForm div.info-field div.info-tit {
+  margin-bottom: 20px;
+  color: #45474c;
+  font-size: 20px;
+  font-weight: 700;
+}
+div.signup-body form#createAccountForm div.info-field label {
+  display: block;
+  margin-bottom: 30px;
+}
+div.signup-body form#createAccountForm div.info-field input[type="text"],
+div.signup-body form#createAccountForm div.info-field input[type="password"],
+div.signup-body form#createAccountForm div.info-field input[type="number"],
+div.signup-body form#createAccountForm div.info-field input[type="email"] {
+  padding: 14px 10px;
+  width: 100%;
+  color: #292c33;
+  font-size: 16px;
+  font-weight: 300;
+  border: 0;
+  border-bottom: 1px solid #8a8f99;
+  box-sizing: border-box;
+  line-height: 100%;
+}
+div.signup-body form#createAccountForm div.info-field input[type="text"]:hover,
+div.signup-body form#createAccountForm div.info-field input[type="password"]:hover,
+div.signup-body form#createAccountForm div.info-field input[type="number"]:hover,
+div.signup-body form#createAccountForm div.info-field input[type="email"]:hover,
+div.signup-body form#createAccountForm div.info-field input[type="text"]:focus,
+div.signup-body form#createAccountForm div.info-field input[type="password"]:focus,
+div.signup-body form#createAccountForm div.info-field input[type="number"]:focus,
+div.signup-body form#createAccountForm div.info-field input[type="email"]:focus {
+  border-bottom-color: #f8136a;
+}
+div.signup-body form#createAccountForm div.info-field input[type="text"]#cooperationName:hover,
+div.signup-body form#createAccountForm div.info-field input[type="password"]#cooperationName:hover,
+div.signup-body form#createAccountForm div.info-field input[type="number"]#cooperationName:hover,
+div.signup-body form#createAccountForm div.info-field input[type="email"]#cooperationName:hover,
+div.signup-body form#createAccountForm div.info-field input[type="text"]#cooperationName:focus,
+div.signup-body form#createAccountForm div.info-field input[type="password"]#cooperationName:focus,
+div.signup-body form#createAccountForm div.info-field input[type="number"]#cooperationName:focus,
+div.signup-body form#createAccountForm div.info-field input[type="email"]#cooperationName:focus {
+  border-bottom-color: #8a8f99;
+}
+/*경고문*/
+div.signup-body form#createAccountForm div.warning {
+  margin-top: 10px;
+}
+div.signup-body form#createAccountForm div.warning p {
+  padding-left: 20px;
+  color: #db0f5d;
+  font-size: 14px;
+  background: url("../img/icon/icon-warning.png") no-repeat;
+  background-position: left bottom;
+  background-size: 16px;
+}
+div.signup-body form#createAccountForm input.btn-signUp {
+  display: block;
+  margin: 100px auto 30px;
+  padding: 15px 0;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border: 0;
+  background-color: #f8136a;
+  cursor: pointer;
+}
+/* 이용약관, 취급방침 css */
+div.agreement div.agreement-item {
+  height: 0;
+  background-color: #f8f9fb;
+  overflow: hidden;
+  transition: all ease .2s;
+}
+div.agreement div.agreement-item.show-agreement {
+  height: 240px;
+}
+div.agreement div.agreement-item .agreement-wrap {
+  padding: 30px 25px;
+  height: 240px;
+  border-top: 1px solid #dadde6;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+div.agreement div.agreement-item section {
+  margin-bottom: 60px;
+}
+div.agreement div.agreement-item section h3 {
+  margin-bottom: 30px;
+  color: #6b7799;
+  font-size: 16px;
+  font-weight: 700;
+}
+div.agreement div.agreement-item section article {
+  margin-bottom: 30px;
+}
+div.agreement div.agreement-item section article h4 {
+  margin-bottom: 10px;
+  color: #6b7799;
+  font-size: 14px;
+}
+div.agreement div.agreement-item section article p {
+  color: #6b7799;
+  font-size: 14px;
+}
+div.agreement div.agreement-item section article ol > li {
+  padding: 10px 0;
+  color: #6b7799;
+  font-size: 14px;
+  border-top: 0 !important;
+}
+div.agreement div.agreement-item section article ol > li ol {
+  padding-left: 30px;
+}
+div.agreement div.agreement-item section article dl dt {
+  display: inline-block;
+  width: 20%;
+}
+div.agreement div.agreement-item section article dl dd {
+  display: inline-block;
+  width: 75%;
+  margin: 0;
+}
+#signUp-complete {
+  margin: 0 auto;
+  width: 480px;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete {
+    width: 100%;
+  }
+}
+#signUp-complete div.signup-title {
+  padding-top: 160px;
+  text-align: center;
+  background: url("../img/icon/check_purple-light.png") no-repeat;
+  background-size: 60px;
+  background-position: center top 80px;
+}
+#signUp-complete div.signup-title h2 {
+  margin-bottom: 30px;
+  color: #6666ff;
+  font-size: 24px;
+  font-weight: 400;
+}
+#signUp-complete div.signup-title h2 b {
+  font-weight: 700;
+}
+#signUp-complete div.signup-title p {
+  color: #475066;
+  font-size: 14px;
+}
+#signUp-complete div.signup-body {
+  padding-top: 50px;
+  width: 420px;
+  margin: 0 auto;
+  position: relative;
+}
+#signUp-complete div.signup-body:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body {
+    width: 100%;
+  }
+}
+#signUp-complete div.signup-body a.link-box {
+  width: 200px;
+  height: 240px;
+  box-sizing: border-box;
+  padding: 30px 16px 22px;
+  position: relative;
+  display: block;
+  float: left;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #b8becc;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body a.link-box {
+    width: 100%;
+    height: 150px;
+    float: none;
+    padding: 30px 0;
+  }
+}
+#signUp-complete div.signup-body a.link-box h3.title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #292c33;
+}
+#signUp-complete div.signup-body a.link-box h3.title span {
+  font-weight: 400;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body a.link-box h3.title {
+    width: calc( 100% - 120px );
+    float: right;
+    text-align: left;
+  }
+}
+#signUp-complete div.signup-body a.link-box img {
+  margin-top: 23px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body a.link-box img {
+    margin: 0;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+#signUp-complete div.signup-body a.link-box p.explain {
+  padding-top: 19px;
+  position: absolute;
+  vertical-align: top;
+  width: 166px;
+  height: 90px;
+  box-sizing: border-box;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  line-height: 1.5;
+  text-align: center;
+  border-top: 1px solid #dadde6;
+  color: #45474d;
+}
+#signUp-complete div.signup-body a.link-box p.explain.double-line {
+  padding-top: 27px;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body a.link-box p.explain {
+    border: 0;
+    position: relative;
+    width: calc( 100% - 120px );
+    float: right;
+    text-align: left;
+    transform: translate(0, 0);
+    left: 0;
+    height: auto;
+  }
+}
+#signUp-complete div.signup-body a.link-box.link-box-reward {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body a.link-box.link-box-reward {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+#signUp-complete div.signup-body ul {
+  padding-top: 10px;
+  width: 320px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body ul {
+    width: 90%;
+  }
+}
+#signUp-complete div.signup-body ul li {
+  height: 80px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #6666ff;
+  background-image: url("../img/fundingRegister/icon-file-white.png");
+  background-size: 32px 42px;
+  background-position: 74px center;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body ul li {
+    background-position: 30px center;
+  }
+}
+#signUp-complete div.signup-body ul li:hover {
+  background-color: #6666ff;
+}
+#signUp-complete div.signup-body ul li:hover h3 {
+  color: #fff;
+}
+#signUp-complete div.signup-body ul li > a {
+  display: block;
+}
+#signUp-complete div.signup-body ul li h3 {
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 117px;
+  color: #6666ff;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 80px;
+  letter-spacing: -0.5px;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-body ul li h3 {
+    padding-left: 75px;
+  }
+}
+#signUp-complete div.signup-body ul li:not(:first-of-type) {
+  margin-top: 20px;
+}
+#signUp-complete div.signup-btn {
+  margin-top: 80px;
+}
+#signUp-complete div.signup-btn a.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 13px 0;
+  width: 240px;
+  font-size: 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 1023px) {
+  #signUp-complete div.signup-btn a.btn {
+    width: 100%;
+  }
+}
+#signUp-complete div.signup-btn a.back-btn {
+  color: #fff;
+  background: #f8136a;
+}
+#signUp-complete div.signup-btn a.home-btn {
+  margin-top: 20px;
+  color: #45474d;
+}
+

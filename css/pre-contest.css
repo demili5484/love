@@ -1,0 +1,2563 @@
+@charset "UTF-8";
+body {
+  font-family: 'Roboto', 'Noto Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #353535;
+}
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 14px;
+  }
+}
+h2 {
+  font-size: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 8px;
+} /* } import/text-guide */
+@media only screen and (max-width: 1023px) {
+  h2 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  h2 {
+    font-size: 16px;
+    line-height: 137.5%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  h2 {
+    font-size: 16px;
+    line-height: 137.5%;
+  }
+}
+h2 small {
+  font-size: 14px;
+  margin-left: 16px;
+  color: #8a8f99;
+  font-weight: 400;
+}
+@media only screen and (max-width: 1023px) {
+  h2 small {
+    display: none;
+  }
+}
+/* } import/colorset */
+input::-webkit-input-placeholder {
+  color: #e1e1e1;
+}
+.post-write-btn {
+  display: inline-block;
+  color: #292c33;
+  text-align: center;
+  background-color: #f6f6f6;
+  border: 1px solid #d4d4d4;
+  border-radius: 3px;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+}
+.post-write-btn-white {
+  display: inline-block;
+  color: #292c33;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #b8becc;
+  border-radius: 4px;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 9px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: -0.05em;
+}
+.table-head-focused {
+  background-color: #f4f4f4 !important;
+}
+.foldable-details {
+  display: none;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.align-center {
+  text-align: center;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn1000 {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+.fadeIn500 {
+  -webkit-animation: fadein 0.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 0.5s;
+  /* Internet Explorer */
+  -o-animation: fadein 0.5s;
+  /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+.fadeIn {
+  -webkit-animation: fadein 0.2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 0.2s;
+  /* Internet Explorer */
+  -o-animation: fadein 0.2s;
+  /* Opera < 12.1 */
+  animation: fadein 0.2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*slideDown*/
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-20%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 0.2s;
+  -webkit-animation-duration: 0.2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(30%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+.slideLeft {
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  visibility: visible !important;
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+} /* } import/mixin */
+article > .container {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article > .container {
+    padding: 40px 10px;
+  }
+}
+article > .container > .wrapper {
+  padding: 0;
+}
+article > .container > .wrapper > section {
+  margin-top: 32px;
+}
+article > .container > .wrapper > a.transfer {
+  margin: 0;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article > .container > .wrapper > a.transfer {
+    margin-left: 20px;
+  }
+}
+article h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #292c33;
+  margin: 0;
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 1023px) {
+  article h2 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article h2 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article h2 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article h2 small {
+    display: none;
+  }
+}
+article .overview,
+article .overview-ing {
+  float: left;
+  width: 49%;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview,
+  article .overview-ing {
+    float: none;
+    width: 100%;
+  }
+}
+article .overview dl,
+article .overview-ing dl {
+  margin: 0;
+  padding: 82px 0;
+  height: 258px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview dl,
+  article .overview-ing dl {
+    padding: 16px;
+    height: auto;
+  }
+}
+article .overview dl dt,
+article .overview-ing dl dt {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  line-height: 31px;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview dl dt,
+  article .overview-ing dl dt {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .overview dl dt,
+  article .overview-ing dl dt {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .overview dl dt,
+  article .overview-ing dl dt {
+    float: left;
+    line-height: 30px;
+  }
+}
+article .overview dl dd,
+article .overview-ing dl dd {
+  padding-top: 16px;
+  font-size: 40px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 48px;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview dl dd,
+  article .overview-ing dl dd {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .overview dl dd,
+  article .overview-ing dl dd {
+    padding-top: 0;
+    text-align: right;
+    line-height: 30px;
+  }
+}
+article .overview dl dd .unit,
+article .overview-ing dl dd .unit {
+  font-size: 40px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview dl dd .unit,
+  article .overview-ing dl dd .unit {
+    font-size: 20px;
+  }
+}
+article .overview .currentParticipant,
+article .overview-ing .currentParticipant {
+  width: 220px;
+  padding-left: 48px;
+  border: 1px solid #e1e1e1;
+  border-right: 0;
+  float: left;
+  box-sizing: border-box;
+  background-color: #e62e6b;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview .currentParticipant,
+  article .overview-ing .currentParticipant {
+    width: 275px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .overview .currentParticipant,
+  article .overview-ing .currentParticipant {
+    /*, @ipad-pro*/
+    width: auto;
+    padding: 10px 16px;
+    float: none;
+  }
+}
+article .overview .currentParticipant dt,
+article .overview-ing .currentParticipant dt {
+  background: url("../img/contest/icon-profile.png") no-repeat 80px 0px;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview .currentParticipant dt,
+  article .overview-ing .currentParticipant dt {
+    width: 100px;
+    background-position: 77px 5px;
+    background-size: 23px;
+  }
+}
+article .overview .currentAmount,
+article .overview-ing .currentAmount {
+  margin-left: 220px;
+  padding-left: 32px;
+  border: 1px solid #e1e1e1;
+  border-left: 0;
+  background-color: #ffffff;
+  color: #353535;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview .currentAmount,
+  article .overview-ing .currentAmount {
+    margin-left: 275px;
+    padding-left: 80px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .overview .currentAmount,
+  article .overview-ing .currentAmount {
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .overview .currentAmount,
+  article .overview-ing .currentAmount {
+    margin-left: 0;
+    padding: 10px 16px;
+    border-left: 1px solid #e1e1e1;
+    border-top: 0;
+  }
+}
+article .overview .currentAmount dt,
+article .overview-ing .currentAmount dt {
+  background: url("../img/contest/icon-coin.png") no-repeat 110px 0px;
+}
+@media only screen and (max-width: 1023px) {
+  article .overview .currentAmount dt,
+  article .overview-ing .currentAmount dt {
+    width: 100px;
+    background-position: 77px 5px;
+    background-size: 23px;
+  }
+}
+article .investment {
+  float: right;
+  width: 49%;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment {
+    float: none;
+    width: 100%;
+  }
+}
+article .investment table {
+  padding: 0;
+  width: 100%;
+  font-size: 0;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: inherit;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table thead {
+    display: none;
+  }
+}
+article .investment table th {
+  color: #b88869;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+article .investment table th,
+article .investment table td {
+  padding: 7px 0;
+}
+article .investment table tr {
+  display: block;
+}
+article .investment table tr:first-child .dateTime {
+  border-top: 0;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table tr {
+    padding-bottom: 16px;
+  }
+}
+article .investment table td {
+  display: inline-block;
+  color: #292c33;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+article .investment table td .profile-image {
+  margin-right: 8px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+article .investment table td .member-name {
+  padding-right: 10px;
+  display: inline-block;
+  max-width: 120px;
+  font-weight: 700;
+  line-height: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table td .member-name {
+    max-width: 100px;
+  }
+}
+article .investment table td .company-name {
+  padding-right: 6px;
+  display: inline-block;
+  max-width: 120px;
+  font-weight: 700;
+  line-height: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table td .company-name {
+    max-width: 100px;
+  }
+}
+article .investment table td .amount {
+  line-height: 40px;
+  color: #6666ff;
+  font-weight: 700;
+  float: right;
+}
+article .investment table td .amount span {
+  color: #292c33;
+  font-weight: 400;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table td .amount {
+    line-height: 10px;
+  }
+}
+article .investment table td.dateTime {
+  padding-top: 14px;
+  padding-bottom: 0;
+  display: block;
+  width: 100%;
+  border-top: 1px solid #f4f4f4;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table td.dateTime {
+    padding-bottom: 7px;
+  }
+}
+article .investment table td.member {
+  display: inline-block;
+}
+article .investment table td.funding {
+  display: inline-block;
+}
+article .investment table td.amount {
+  display: inline-block;
+}
+article .investment table td.invest-comment {
+  display: none;
+}
+@media only screen and (max-width: 1023px) {
+  article .investment table td.invest-comment {
+    font-size: 12px;
+    color: #666;
+    display: block;
+  }
+}
+article .ranking,
+article .ranking-ing {
+  overflow: auto;
+}
+article .ranking::after,
+article .ranking-ing::after {
+  content: "";
+  clear: left;
+}
+article .ranking ol,
+article .ranking-ing ol {
+  width: 50%;
+  float: left;
+  margin-top: 0;
+  padding-left: 0;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article .ranking ol,
+  article .ranking-ing ol {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+  article .ranking ol.preceding li:last-child,
+  article .ranking-ing ol.preceding li:last-child {
+    border-bottom-color: transparent;
+  }
+  article .ranking ol.succeeding li:first-child,
+  article .ranking-ing ol.succeeding li:first-child {
+    border-top-width: 0;
+  }
+}
+article .ranking ol li,
+article .ranking-ing ol li {
+  background-color: #ffffff;
+  list-style: none;
+  -box-sizing: border-box;
+  height: 32px;
+  padding: 24px;
+  color: #292c33;
+  position: relative;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article .ranking ol li,
+  article .ranking-ing ol li {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li,
+  article .ranking-ing ol li {
+    padding: 5px;
+  }
+}
+article .ranking ol li > *,
+article .ranking-ing ol li > * {
+  display: block;
+  float: left;
+  line-height: 32px;
+  position: relative;
+  z-index: 1;
+}
+article .ranking ol.preceding li:first-child .rank,
+article .ranking-ing ol.preceding li:first-child .rank {
+  font-size: 28px;
+}
+article .ranking ol.preceding li:first-child .company-name,
+article .ranking-ing ol.preceding li:first-child .company-name {
+  font-size: 24px;
+}
+article .ranking ol.preceding li:first-child .funding-title,
+article .ranking-ing ol.preceding li:first-child .funding-title {
+  font-size: 18px;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article .ranking ol.preceding li:first-child .rank,
+  article .ranking-ing ol.preceding li:first-child .rank {
+    font-size: 24px;
+  }
+  article .ranking ol.preceding li:first-child .company-name,
+  article .ranking-ing ol.preceding li:first-child .company-name {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol.preceding li:first-child .rank,
+  article .ranking-ing ol.preceding li:first-child .rank {
+    font-size: inherit;
+  }
+  article .ranking ol.preceding li:first-child .company-name,
+  article .ranking-ing ol.preceding li:first-child .company-name {
+    font-size: inherit;
+  }
+  article .ranking ol.preceding li:first-child .funding-title,
+  article .ranking-ing ol.preceding li:first-child .funding-title {
+    font-size: 12px;
+  }
+}
+article .ranking ol li .company-infoarea,
+article .ranking-ing ol li .company-infoarea {
+  width: 90%;
+}
+article .ranking ol li .rank,
+article .ranking-ing ol li .rank {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  line-height: 35px;
+  color: #b88869;
+  text-align: center;
+  font-style: italic;
+  width: 48px;
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .rank,
+  article .ranking-ing ol li .rank {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .rank,
+  article .ranking-ing ol li .rank {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article .ranking ol li .rank,
+  article .ranking-ing ol li .rank {
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .rank,
+  article .ranking-ing ol li .rank {
+    width: 24px;
+  }
+}
+article .ranking ol li .company-name,
+article .ranking-ing ol li .company-name {
+  font-weight: 700;
+  float: left;
+  margin-right: 8px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .company-name,
+  article .ranking-ing ol li .company-name {
+    font-weight: 400;
+  }
+}
+article .ranking ol li .funding-title,
+article .ranking-ing ol li .funding-title {
+  float: right;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8a8f99;
+  padding-right: 30px;
+  max-width: 280px;
+  max-width: 240px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .funding-title,
+  article .ranking-ing ol li .funding-title {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .funding-title,
+  article .ranking-ing ol li .funding-title {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .funding-title,
+  article .ranking-ing ol li .funding-title {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article .ranking ol li .funding-title,
+  article .ranking-ing ol li .funding-title {
+    max-width: 360px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .funding-title,
+  article .ranking-ing ol li .funding-title {
+    max-width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 45px;
+  }
+}
+article .ranking ol li .change,
+article .ranking-ing ol li .change {
+  position: absolute;
+  display: block;
+  left: 24px;
+  right: 24px;
+  text-align: right;
+  height: 56px;
+  border-bottom: 1px solid #f4f4f4;
+  z-index: 0;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article .ranking ol li .change,
+  article .ranking-ing ol li .change {
+    height: 42px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  article .ranking ol li .change,
+  article .ranking-ing ol li .change {
+    font-size: 12px;
+    height: 37px;
+  }
+}
+article .ranking ol li .change .direction,
+article .ranking-ing ol li .change .direction {
+  font-size: 12px;
+  margin-right: 4px;
+}
+article .ranking ol li .change.up,
+article .ranking-ing ol li .change.up {
+  font-weight: 400 !important;
+  color: #e62e6b !important;
+}
+article .ranking ol li .change.down,
+article .ranking-ing ol li .change.down {
+  font-weight: 400 !important;
+  color: #6666ff !important;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  article .ranking ol li .change .unit,
+  article .ranking-ing ol li .change .unit {
+    display: none;
+  }
+}
+article .chart-question {
+  float: left;
+  width: 49%;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-question {
+    float: none;
+    width: 100%;
+  }
+}
+article .chart-question table {
+  padding: 0;
+  width: 100%;
+  font-size: 0;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: inherit;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-question table {
+    padding: 0;
+  }
+}
+article .chart-question table tr {
+  display: block;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-question table tr {
+    padding-bottom: 16px;
+  }
+}
+article .chart-question table td {
+  padding: 0;
+  display: block;
+  color: #292c33;
+  font-size: 14px;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+article .chart-question table td .profile-image {
+  position: relative;
+  margin-right: 8px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+article .chart-question table td i.juror-badge {
+  position: relative;
+  top: 7px;
+  height: 24px;
+  width: 36px;
+  background: url("../img/testImg/judge_icon.png") no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+article .chart-question table td .member-name {
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: middle;
+}
+article .chart-question table td .dateTime {
+  color: #292c33;
+  font-size: 14px;
+  font-weight: 400;
+}
+article .chart-question table td.member {
+  padding-top: 10px;
+  display: block;
+}
+article .chart-question table td.funding {
+  margin-left: 42px;
+}
+article .chart-question table td.funding span {
+  display: block;
+  vertical-align: middle;
+  height: 36px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-question table td.funding span {
+    height: auto;
+  }
+}
+article .chart-reason {
+  float: right;
+  width: 49%;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-reason {
+    float: none;
+    width: 100%;
+  }
+}
+article .chart-reason table {
+  padding: 0;
+  width: 100%;
+  font-size: 0;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border-collapse: inherit;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-reason table {
+    padding: 0;
+  }
+}
+article .chart-reason table tr {
+  display: block;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-reason table tr {
+    padding-bottom: 16px;
+  }
+}
+article .chart-reason table td {
+  padding: 0;
+  display: block;
+  color: #292c33;
+  font-size: 14px;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+article .chart-reason table td .profile-image {
+  position: relative;
+  margin-right: 8px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+article .chart-reason table td i.juror-badge {
+  position: relative;
+  top: 7px;
+  height: 24px;
+  width: 36px;
+  background: url("../img/testImg/judge_icon.png") no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+article .chart-reason table td .member-name {
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  vertical-align: middle;
+}
+article .chart-reason table td .dateTime {
+  color: #292c33;
+  font-size: 14px;
+  font-weight: 400;
+}
+article .chart-reason table td.member {
+  padding-top: 10px;
+  display: block;
+}
+article .chart-reason table td.funding {
+  margin-left: 42px;
+  position: relative;
+  top: -6px;
+}
+article .chart-reason table td.funding span {
+  display: block;
+  vertical-align: middle;
+  height: 37px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1023px) {
+  article .chart-reason table td.funding span {
+    height: auto;
+  }
+}
+.achievement table,
+.achievement-ing table {
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  border-spacing: 24px 0px;
+  border-collapse: separate;
+  padding: 16px 0 32px 0;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table,
+  .achievement-ing table {
+    padding: 20px 36px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table,
+  .achievement-ing table {
+    border-spacing: 0;
+    padding: 16px 16px 16px 8px;
+  }
+}
+.achievement table th,
+.achievement-ing table th,
+.achievement table td,
+.achievement-ing table td {
+  font-size: 14px;
+  padding: 0;
+  color: #292c33;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th,
+  .achievement-ing table th,
+  .achievement table td,
+  .achievement-ing table td {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th,
+  .achievement-ing table th,
+  .achievement table td,
+  .achievement-ing table td {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th,
+  .achievement-ing table th,
+  .achievement table td,
+  .achievement-ing table td {
+    font-size: 12px;
+  }
+}
+.achievement table th:first-child,
+.achievement-ing table th:first-child,
+.achievement table td:first-child,
+.achievement-ing table td:first-child {
+  width: 140px;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th:first-child,
+  .achievement-ing table th:first-child,
+  .achievement table td:first-child,
+  .achievement-ing table td:first-child {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th:first-child,
+  .achievement-ing table th:first-child,
+  .achievement table td:first-child,
+  .achievement-ing table td:first-child {
+    padding-left: 0;
+    max-width: 64px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 96px;
+  }
+}
+.achievement table th:first-child .rank,
+.achievement-ing table th:first-child .rank,
+.achievement table td:first-child .rank,
+.achievement-ing table td:first-child .rank {
+  padding-right: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #b88869;
+  text-align: center;
+  font-style: italic;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th:first-child .rank,
+  .achievement-ing table th:first-child .rank,
+  .achievement table td:first-child .rank,
+  .achievement-ing table td:first-child .rank {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th:first-child .rank,
+  .achievement-ing table th:first-child .rank,
+  .achievement table td:first-child .rank,
+  .achievement-ing table td:first-child .rank {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th:first-child .rank,
+  .achievement-ing table th:first-child .rank,
+  .achievement table td:first-child .rank,
+  .achievement-ing table td:first-child .rank {
+    padding-right: 5px;
+  }
+}
+.achievement table th,
+.achievement-ing table th {
+  position: relative;
+  height: 36px;
+}
+.achievement table th.max-3 div.i-0,
+.achievement-ing table th.max-3 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-3 div.i-1,
+.achievement-ing table th.max-3 div.i-1 {
+  left: 33.333333333333336%;
+}
+.achievement table th.max-3 div.i-2,
+.achievement-ing table th.max-3 div.i-2 {
+  left: 66.66666666666667%;
+}
+.achievement table th.max-3 div.i-3,
+.achievement-ing table th.max-3 div.i-3 {
+  left: 100%;
+}
+.achievement table th.max-4 div.i-0,
+.achievement-ing table th.max-4 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-4 div.i-1,
+.achievement-ing table th.max-4 div.i-1 {
+  left: 25%;
+}
+.achievement table th.max-4 div.i-2,
+.achievement-ing table th.max-4 div.i-2 {
+  left: 50%;
+}
+.achievement table th.max-4 div.i-3,
+.achievement-ing table th.max-4 div.i-3 {
+  left: 75%;
+}
+.achievement table th.max-4 div.i-4,
+.achievement-ing table th.max-4 div.i-4 {
+  left: 100%;
+}
+.achievement table th.max-5 div.i-0,
+.achievement-ing table th.max-5 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-5 div.i-1,
+.achievement-ing table th.max-5 div.i-1 {
+  left: 20%;
+}
+.achievement table th.max-5 div.i-2,
+.achievement-ing table th.max-5 div.i-2 {
+  left: 40%;
+}
+.achievement table th.max-5 div.i-3,
+.achievement-ing table th.max-5 div.i-3 {
+  left: 60%;
+}
+.achievement table th.max-5 div.i-4,
+.achievement-ing table th.max-5 div.i-4 {
+  left: 80%;
+}
+.achievement table th.max-5 div.i-5,
+.achievement-ing table th.max-5 div.i-5 {
+  left: 100%;
+}
+.achievement table th.max-6 div.i-0,
+.achievement-ing table th.max-6 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-6 div.i-1,
+.achievement-ing table th.max-6 div.i-1 {
+  left: 16.666666666666668%;
+}
+.achievement table th.max-6 div.i-2,
+.achievement-ing table th.max-6 div.i-2 {
+  left: 33.333333333333336%;
+}
+.achievement table th.max-6 div.i-3,
+.achievement-ing table th.max-6 div.i-3 {
+  left: 50%;
+}
+.achievement table th.max-6 div.i-4,
+.achievement-ing table th.max-6 div.i-4 {
+  left: 66.66666666666667%;
+}
+.achievement table th.max-6 div.i-5,
+.achievement-ing table th.max-6 div.i-5 {
+  left: 83.33333333333333%;
+}
+.achievement table th.max-6 div.i-6,
+.achievement-ing table th.max-6 div.i-6 {
+  left: 100%;
+}
+.achievement table th.max-7 div.i-0,
+.achievement-ing table th.max-7 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-7 div.i-1,
+.achievement-ing table th.max-7 div.i-1 {
+  left: 14.285714285714286%;
+}
+.achievement table th.max-7 div.i-2,
+.achievement-ing table th.max-7 div.i-2 {
+  left: 28.571428571428573%;
+}
+.achievement table th.max-7 div.i-3,
+.achievement-ing table th.max-7 div.i-3 {
+  left: 42.857142857142854%;
+}
+.achievement table th.max-7 div.i-4,
+.achievement-ing table th.max-7 div.i-4 {
+  left: 57.142857142857146%;
+}
+.achievement table th.max-7 div.i-5,
+.achievement-ing table th.max-7 div.i-5 {
+  left: 71.42857142857143%;
+}
+.achievement table th.max-7 div.i-6,
+.achievement-ing table th.max-7 div.i-6 {
+  left: 85.71428571428571%;
+}
+.achievement table th.max-7 div.i-7,
+.achievement-ing table th.max-7 div.i-7 {
+  left: 100%;
+}
+.achievement table th.max-8 div.i-0,
+.achievement-ing table th.max-8 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-8 div.i-1,
+.achievement-ing table th.max-8 div.i-1 {
+  left: 12.5%;
+}
+.achievement table th.max-8 div.i-2,
+.achievement-ing table th.max-8 div.i-2 {
+  left: 25%;
+}
+.achievement table th.max-8 div.i-3,
+.achievement-ing table th.max-8 div.i-3 {
+  left: 37.5%;
+}
+.achievement table th.max-8 div.i-4,
+.achievement-ing table th.max-8 div.i-4 {
+  left: 50%;
+}
+.achievement table th.max-8 div.i-5,
+.achievement-ing table th.max-8 div.i-5 {
+  left: 62.5%;
+}
+.achievement table th.max-8 div.i-6,
+.achievement-ing table th.max-8 div.i-6 {
+  left: 75%;
+}
+.achievement table th.max-8 div.i-7,
+.achievement-ing table th.max-8 div.i-7 {
+  left: 87.5%;
+}
+.achievement table th.max-8 div.i-8,
+.achievement-ing table th.max-8 div.i-8 {
+  left: 100%;
+}
+.achievement table th.max-9 div.i-0,
+.achievement-ing table th.max-9 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-9 div.i-1,
+.achievement-ing table th.max-9 div.i-1 {
+  left: 11.11111111111111%;
+}
+.achievement table th.max-9 div.i-2,
+.achievement-ing table th.max-9 div.i-2 {
+  left: 22.22222222222222%;
+}
+.achievement table th.max-9 div.i-3,
+.achievement-ing table th.max-9 div.i-3 {
+  left: 33.333333333333336%;
+}
+.achievement table th.max-9 div.i-4,
+.achievement-ing table th.max-9 div.i-4 {
+  left: 44.44444444444444%;
+}
+.achievement table th.max-9 div.i-5,
+.achievement-ing table th.max-9 div.i-5 {
+  left: 55.55555555555556%;
+}
+.achievement table th.max-9 div.i-6,
+.achievement-ing table th.max-9 div.i-6 {
+  left: 66.66666666666667%;
+}
+.achievement table th.max-9 div.i-7,
+.achievement-ing table th.max-9 div.i-7 {
+  left: 77.77777777777777%;
+}
+.achievement table th.max-9 div.i-8,
+.achievement-ing table th.max-9 div.i-8 {
+  left: 88.88888888888889%;
+}
+.achievement table th.max-9 div.i-9,
+.achievement-ing table th.max-9 div.i-9 {
+  left: 100%;
+}
+.achievement table th.max-10 div.i-0,
+.achievement-ing table th.max-10 div.i-0 {
+  left: 0%;
+}
+.achievement table th.max-10 div.i-1,
+.achievement-ing table th.max-10 div.i-1 {
+  left: 10%;
+}
+.achievement table th.max-10 div.i-2,
+.achievement-ing table th.max-10 div.i-2 {
+  left: 20%;
+}
+.achievement table th.max-10 div.i-3,
+.achievement-ing table th.max-10 div.i-3 {
+  left: 30%;
+}
+.achievement table th.max-10 div.i-4,
+.achievement-ing table th.max-10 div.i-4 {
+  left: 40%;
+}
+.achievement table th.max-10 div.i-5,
+.achievement-ing table th.max-10 div.i-5 {
+  left: 50%;
+}
+.achievement table th.max-10 div.i-6,
+.achievement-ing table th.max-10 div.i-6 {
+  left: 60%;
+}
+.achievement table th.max-10 div.i-7,
+.achievement-ing table th.max-10 div.i-7 {
+  left: 70%;
+}
+.achievement table th.max-10 div.i-8,
+.achievement-ing table th.max-10 div.i-8 {
+  left: 80%;
+}
+.achievement table th.max-10 div.i-9,
+.achievement-ing table th.max-10 div.i-9 {
+  left: 90%;
+}
+.achievement table th.max-10 div.i-10,
+.achievement-ing table th.max-10 div.i-10 {
+  left: 100%;
+}
+.achievement table th div,
+.achievement-ing table th div {
+  position: absolute;
+  top: 8px;
+  font-weight: 400;
+  width: 48px;
+  height: 18px;
+  text-align: center;
+  margin-left: -24px;
+  padding-bottom: 10px;
+  background-image: url("../img/contest/arrow_red_down.svg");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th div,
+  .achievement-ing table th div {
+    font-size: 12px;
+    background-size: 7px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table th,
+  .achievement-ing table th {
+    display: none;
+  }
+}
+.achievement table td,
+.achievement-ing table td {
+  height: 40px;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table td,
+  .achievement-ing table td {
+    padding-bottom: 22px;
+  }
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  .achievement table td,
+  .achievement-ing table td {
+    height: 12px;
+  }
+}
+.achievement table tbody tr:first-child .currentPercentage .amount,
+.achievement-ing table tbody tr:first-child .currentPercentage .amount {
+  color: #fff;
+}
+.achievement table tbody tr:first-child .currentPercentage .base,
+.achievement-ing table tbody tr:first-child .currentPercentage .base {
+  background-color: #e60073;
+}
+.achievement table tbody tr:first-child .currentPercentage .over,
+.achievement-ing table tbody tr:first-child .currentPercentage .over {
+  background-color: #cc0066;
+}
+.achievement table tbody tr:nth-child(2) .currentPercentage,
+.achievement-ing table tbody tr:nth-child(2) .currentPercentage,
+.achievement table tbody tr:nth-child(3) .currentPercentage,
+.achievement-ing table tbody tr:nth-child(3) .currentPercentage {
+  color: #fff;
+}
+.achievement table tbody tr:nth-child(2) .currentPercentage .amount,
+.achievement-ing table tbody tr:nth-child(2) .currentPercentage .amount,
+.achievement table tbody tr:nth-child(3) .currentPercentage .amount,
+.achievement-ing table tbody tr:nth-child(3) .currentPercentage .amount {
+  color: #fff;
+}
+.achievement table tbody tr:nth-child(2) .currentPercentage .base,
+.achievement-ing table tbody tr:nth-child(2) .currentPercentage .base,
+.achievement table tbody tr:nth-child(3) .currentPercentage .base,
+.achievement-ing table tbody tr:nth-child(3) .currentPercentage .base {
+  background-color: #e60073;
+}
+.achievement table tbody tr:nth-child(2) .currentPercentage .over,
+.achievement-ing table tbody tr:nth-child(2) .currentPercentage .over,
+.achievement table tbody tr:nth-child(3) .currentPercentage .over,
+.achievement-ing table tbody tr:nth-child(3) .currentPercentage .over {
+  background-color: #cc0066;
+}
+.achievement table .currentPercentage,
+.achievement-ing table .currentPercentage {
+  display: inline-block;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-position: 0 15px;
+  position: relative;
+}
+.achievement table .currentPercentage::before,
+.achievement-ing table .currentPercentage::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #f2f2f2;
+  top: 15px;
+  left: 0;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table .currentPercentage::before,
+  .achievement-ing table .currentPercentage::before {
+    top: 11px;
+  }
+}
+.achievement table .currentPercentage .amount,
+.achievement-ing table .currentPercentage .amount {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  font-size: 18px;
+  color: #292c33;
+  line-height: 40px;
+  margin-left: 8px;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table .currentPercentage .amount,
+  .achievement-ing table .currentPercentage .amount {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table .currentPercentage .amount,
+  .achievement-ing table .currentPercentage .amount {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table .currentPercentage .amount,
+  .achievement-ing table .currentPercentage .amount {
+    font-weight: 400;
+    line-height: 12px;
+  }
+}
+.achievement table .currentPercentage .bar,
+.achievement-ing table .currentPercentage .bar {
+  box-sizing: border-box;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  overflow: hidden;
+  height: 20px;
+  z-index: 0;
+  width: 0;
+  transition: width 1s;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table .currentPercentage .bar,
+  .achievement-ing table .currentPercentage .bar {
+    top: 0;
+    height: 12px;
+  }
+}
+.achievement table .currentPercentage .base,
+.achievement-ing table .currentPercentage .base {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  float: left;
+  background-color: #8f98b3;
+  height: 20px;
+  width: 0;
+  transition: width 0s;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table .currentPercentage .base,
+  .achievement-ing table .currentPercentage .base {
+    height: 12px;
+  }
+}
+.achievement table .currentPercentage .over,
+.achievement-ing table .currentPercentage .over {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  width: 0;
+  border-left-width: 0;
+  background-color: #7a8299;
+  height: 20px;
+  /*
+
+        transition: width 0.5s;
+        display: none;
+        */
+  transition: width 0s;
+}
+@media only screen and (max-width: 1023px) {
+  .achievement table .currentPercentage .over,
+  .achievement-ing table .currentPercentage .over {
+    height: 12px;
+  }
+}
+.achievement table td:first-child {
+  width: 160px;
+}
+.achievement table td:first-child .rank {
+  display: inline-block;
+  vertical-align: middle;
+}
+.achievement table td:first-child .company-name {
+  display: inline-block;
+  max-width: 120px;
+  vertical-align: middle;
+}
+.trend > div,
+.trend-ing > div {
+  background-color: #ffffff;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 32px;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  .trend > div,
+  .trend-ing > div {
+    padding: 16px 12px 16px 4px;
+  }
+}
+.winner-investor div.winner-list {
+  box-sizing: border-box;
+  padding: 32px;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -0.05em;
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.winner-list {
+    padding: 32px 26px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.winner-list {
+    padding: 32px 16px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.winner-list {
+    padding: 32px 0;
+  }
+}
+.winner-investor strong {
+  color: #292c33;
+  font-weight: 400;
+}
+.winner-investor div.notice {
+  margin-bottom: 48px;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #8a8f99;
+  line-height: 125%;
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.notice {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.notice {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.notice {
+    padding: 16px;
+    margin-bottom: 32px;
+    letter-spacing: -0.05em;
+  }
+}
+.winner-investor div.notice span.contest-name {
+  margin-right: 8px;
+  color: #292c33;
+  font-weight: 400;
+}
+.winner-investor div.notice span:last-of-type {
+  color: #e60073;
+  font-weight: 400;
+}
+.winner-investor ol {
+  overflow: auto;
+  margin: 0;
+  margin-bottom: 64px;
+  padding: 0;
+}
+.winner-investor ol > li {
+  margin-bottom: 64px;
+  list-style: none;
+  clear: both;
+}
+.winner-investor ol > li h3 {
+  box-sizing: border-box;
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 4px 16px;
+  color: #292c33;
+  background-color: #f4f4f4;
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 {
+    width: 95%;
+    margin: 16px auto;
+  }
+}
+.winner-investor ol > li h3 span:first-child {
+  margin-right: 8px;
+  padding-left: 24px;
+  background: url("../img/deco/disc-main.svg");
+  background-size: 8px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 16px;
+  color: #e60073;
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  .winner-investor ol > li h3 span.mobile-hidden {
+    display: none;
+  }
+}
+.winner-investor ol > li > ul {
+  padding-left: 24px;
+}
+.winner-investor ol > li > ul > li {
+  float: left;
+  width: 20%;
+  margin-bottom: 8px;
+  list-style: none;
+  color: #8a8f99;
+  font-size: 16px;
+  line-height: 16px;
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li > ul > li {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  .winner-investor ol > li > ul > li {
+    width: 33.3333%;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li > ul > li {
+    width: 50%;
+    margin-bottom: 16px;
+  }
+}
+.winner-investor ol > li > ul > li strong {
+  margin-right: 8px;
+  color: #292c33;
+  font-size: 16px;
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor ol > li > ul > li strong {
+    font-size: 12px;
+  }
+}
+.winner-investor div.prize-usage-notice {
+  color: #8a8f99;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-top: 1px solid #e1e1e1;
+  font-size: 14px;
+  text-align: justify;
+  word-break: break-all;
+  letter-spacing: -0.05em;
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.prize-usage-notice {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.prize-usage-notice {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .winner-investor div.prize-usage-notice {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 1023px), only screen and (max-width: 1023px) {
+  .winner-investor div.prize-usage-notice {
+    font-size: 12px;
+  }
+}
+.winner-investor div.prize-usage-notice span {
+  display: block;
+  margin-bottom: 4px;
+}
+.winner,
+.winner-ing,
+.group-funding-image {
+  text-align: center;
+  display: none;
+}
+.winner div.funding-cover,
+.winner-ing div.funding-cover,
+.group-funding-image div.funding-cover {
+  position: relative;
+  width: 1148px;
+  height: 622px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 5px solid #e62e6b;
+  border-radius: 5px;
+}
+.winner div.funding-cover h2,
+.winner-ing div.funding-cover h2,
+.group-funding-image div.funding-cover h2 {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  padding-top: 32px;
+  width: 230px;
+  height: 330px;
+  background-color: #e60073;
+  background: url("../img/contest/section-winner.svg") no-repeat;
+  background-size: 100%;
+  color: #ffffff;
+  font-size: 50px;
+}
+.winner div.funding-cover h2 span,
+.winner-ing div.funding-cover h2 span,
+.group-funding-image div.funding-cover h2 span {
+  display: block;
+  font-size: 110px;
+  line-height: 120px;
+}
+.winner div.funding-cover img.funding-cover-image,
+.winner-ing div.funding-cover img.funding-cover-image,
+.group-funding-image div.funding-cover img.funding-cover-image {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.winner div.company-name,
+.winner-ing div.company-name,
+.group-funding-image div.company-name {
+  margin-top: 20px;
+  font-size: 155px;
+  padding: 20px 0;
+  font-weight: 700;
+  color: #353535;
+}
+.winner.no1,
+.winner-ing.no1,
+.group-funding-image.no1 {
+  background: url("../img/contest/no1_bg.png") no-repeat;
+}
+.reward {
+  display: none;
+}
+.reward ul {
+  position: relative;
+  left: 40px;
+  margin-top: 150px;
+  padding: 0;
+}
+.reward ul li {
+  position: absolute;
+  display: none;
+  width: 590px;
+  margin-right: 30px;
+  border: 1px solid #e1e1e1;
+  background-color: #ffffff;
+  list-style: none;
+}
+.reward ul li:nth-child(1) {
+  left: 0;
+}
+.reward ul li:nth-child(1) div.gift-name {
+  line-height: 100px;
+}
+.reward ul li:nth-child(2) {
+  left: 620px;
+}
+.reward ul li:nth-child(3) {
+  left: 1240px;
+}
+.reward ul li:nth-child(3) div.gift-name {
+  line-height: 100px;
+}
+.reward ul li.active {
+  z-index: 1;
+  animation: reward-li-animation 3s;
+  border: 5px solid #e60073;
+  filter: drop-shadow(0px 6px 6px rgba(153, 153, 153, 0.75));
+}
+@keyframes reward-li-animation {
+  0% {
+    transform: scale(10);
+    left: 600px;
+  }
+  20% {
+    transform: scale(1.75);
+    left: 600px;
+  }
+  80% {
+    transform: scale(1.75);
+    left: 600px;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.reward ul li.active div.rank {
+  color: #e60073;
+}
+.reward ul li.active div.gift-name {
+  color: #e60073;
+  font-weight: 700;
+  border-top: 1px solid #e60073;
+  background-color: #fdf4f8;
+}
+.reward ul li div.gift-headcount {
+  box-sizing: border-box;
+  padding: 48px;
+}
+.reward ul li div.gift-headcount img {
+  width: 290px;
+  height: 150px;
+  vertical-align: middle;
+}
+.reward ul li div.gift-headcount div.rank {
+  float: right;
+  margin-top: 35px;
+  margin-left: 20px;
+  font-size: 52px;
+  font-weight: 700;
+}
+.reward ul li div.gift-headcount div.rank span {
+  margin-left: 8px;
+  font-size: 34px;
+  font-weight: 400;
+}
+.reward ul li div.gift-name {
+  height: 100px;
+  border-top: 1px solid #e1e1e1;
+  background-color: #e6e6e6;
+  text-align: center;
+  font-size: 34px;
+}
+.real-time-amount {
+  display: none;
+}
+#chart-canvas-list h4.chart-tab {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  padding: 15px 0px;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #8a8f99;
+  z-index: 1;
+  background-color: #f4f4f4;
+}
+@media only screen and (max-width: 1023px) {
+  #chart-canvas-list h4.chart-tab {
+    width: 80px;
+    font-size: 12px;
+  }
+}
+#chart-canvas-list h4.chart-tab.active {
+  border: 1px solid #d4d4d4;
+  border-bottom: 1px solid #fff;
+  background-color: #fff;
+  color: #292c33;
+}
+#chart-canvas-list section {
+  position: relative;
+  display: none;
+}
+#chart-canvas-list section::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: -21px;
+  left: 0;
+  background-color: #d4d4d4;
+}
+#chart-canvas-list section.active {
+  display: block;
+}
+#chart-canvas-list .canvas-label {
+  padding-top: 5px;
+}
+#chart-canvas-list .canvas-label:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#chart-canvas-list .canvas-label span.time {
+  color: #292c33;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+@media only screen and (max-width: 1023px) {
+  #chart-canvas-list .canvas-label span.time {
+    font-size: 14px;
+  }
+}
+#chart-canvas-list .canvas-label span.time.first {
+  float: left;
+  margin-left: 40px;
+}
+@media only screen and (max-width: 1023px) {
+  #chart-canvas-list .canvas-label span.time.first {
+    margin-left: 10px;
+  }
+}
+#chart-canvas-list .canvas-label span.time.last {
+  float: right;
+}
+
+
+/* ===== Chart Page Polish ===== */
+
+/* 페이지 컨테이너 */
+article > .container {
+  background-color: #f7f9fc;
+  padding: 32px 24px 48px;
+}
+
+/* 섹션 간격 + 카드 기본 */
+article > .container > .wrapper > section {
+  background: #fff;
+  border: 1px solid #e4e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+/* 섹션 h2 — 왼쪽 강조선 */
+article h2 {
+  font-size: 16px !important;
+  font-weight: 700;
+  color: #1a1f2e;
+  border-left: 3px solid #1d3461;
+  padding-left: 10px;
+  margin-bottom: 16px !important;
+}
+article h2 span {
+  color: #1a1f2e;
+}
+article h2 small {
+  font-size: 12px;
+  color: #aab0bf;
+  margin-left: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* overview — 총 투자자 / 총 투자금액 카드 */
+article .overview,
+article .overview-ing {
+  border: none;
+  padding: 0;
+  background: transparent;
+  overflow: hidden;
+}
+article .overview dl,
+article .overview-ing dl {
+  border-radius: 8px;
+  border: 1px solid #e4e8f0;
+  box-sizing: border-box;
+  height: auto;
+  padding: 24px 28px;
+}
+article .overview .currentParticipant,
+article .overview-ing .currentParticipant {
+  background-color: #1d3461;
+  border-color: #1d3461;
+  border-radius: 8px 0 0 8px;
+  width: 200px;
+}
+article .overview .currentAmount,
+article .overview-ing .currentAmount {
+  border-radius: 0 8px 8px 0;
+  border-color: #e4e8f0;
+  border-left: 0;
+}
+article .overview dl dt,
+article .overview-ing dl dt {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  opacity: 0.8;
+}
+article .overview dl dd,
+article .overview-ing dl dd {
+  font-size: 32px;
+  padding-top: 8px;
+  line-height: 1.2;
+}
+article .overview dl dd .unit,
+article .overview-ing dl dd .unit {
+  font-size: 20px;
+}
+
+/* investment — 실시간 투자 테이블 */
+article .investment {
+  border: 1px solid #e4e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+  background: #fff;
+}
+article .investment table th {
+  color: #9298aa;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom-color: #e4e8f0;
+  padding-bottom: 8px;
+}
+article .investment table td.dateTime {
+  border-top-color: #f0f3f9;
+  padding-top: 10px;
+  color: #aab0bf;
+  font-size: 12px;
+}
+article .investment table td .amount {
+  color: #1d3461;
+}
+
+/* 질문 / 투자이유 테이블 */
+article .chart-question,
+article .chart-reason {
+  border: 1px solid #e4e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+  background: #fff;
+}
+article .chart-question table,
+article .chart-reason table {
+  border-top: none;
+  border-bottom: none;
+}
+article .chart-question table tr,
+article .chart-reason table tr {
+  border-bottom-color: #f0f3f9;
+}
+
+/* ranking — 현재 순위 */
+article .ranking,
+article .ranking-ing {
+  border: 1px solid #e4e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+  background: #fff;
+}
+article .ranking ol li,
+article .ranking-ing ol li {
+  border-radius: 6px;
+  border-bottom-color: #f0f3f9;
+  transition: background 0.12s;
+}
+article .ranking ol li:hover,
+article .ranking-ing ol li:hover {
+  background: #fafbfd;
+}
+article .ranking ol li .rank,
+article .ranking-ing ol li .rank {
+  color: #1d3461;
+  font-style: normal;
+  font-weight: 700;
+}
+article .ranking ol.preceding li:first-child .rank,
+article .ranking-ing ol.preceding li:first-child .rank {
+  color: #e60073;
+}
+article .ranking ol li .change.up,
+article .ranking-ing ol li .change.up {
+  color: #e60073 !important;
+}
+
+/* achievement — 달성률 */
+article .achievement {
+  border: 1px solid #e4e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+  background: #fff;
+}
+article .achievement table {
+  border-top: none;
+  padding: 0;
+}
+article .achievement table th {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9298aa;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e4e8f0;
+  padding: 6px 4px;
+  height: auto;
+}
+/* 헤더 % 라벨 */
+article .achievement table th div {
+  font-size: 11px;
+  font-weight: 500;
+  color: #b0b6c8;
+  background-image: none;
+  padding-bottom: 0;
+  top: 4px;
+}
+/* 각 행 */
+article .achievement table td {
+  border-bottom: 1px solid #f0f3f9;
+  padding: 6px 8px 16px;
+  font-size: 14px;
+  color: #1a1f2e;
+  height: auto;
+  vertical-align: top;
+}
+article .achievement table tbody tr:last-child td {
+  border-bottom: none;
+}
+/* 회사명 열 */
+article .achievement table td.company-info {
+  width: 160px;
+  vertical-align: middle;
+  padding-bottom: 10px;
+  white-space: nowrap;
+}
+article .achievement table td.company-info .rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #eef1f7;
+  font-size: 12px;
+  font-weight: 700;
+  color: #7b84a0;
+  font-style: normal;
+  margin-right: 8px;
+  vertical-align: middle;
+  padding-right: 0;
+}
+article .achievement table tbody tr:nth-child(1) td.company-info .rank {
+  background: #1d3461;
+  color: #fff;
+}
+article .achievement table tbody tr:nth-child(2) td.company-info .rank {
+  background: #2f5299;
+  color: #fff;
+}
+article .achievement table tbody tr:nth-child(3) td.company-info .rank {
+  background: #5078c8;
+  color: #fff;
+}
+article .achievement table td.company-info .company-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1f2e;
+  vertical-align: middle;
+  max-width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+/* 달성률 셀 레이아웃 */
+article .achievement table td.currentPercentage {
+  position: relative;
+  display: table-cell;
+  vertical-align: top;
+}
+/* 퍼센트 텍스트 — 바 위에 표시 */
+article .achievement table .currentPercentage .amount {
+  display: block;
+  position: relative;
+  z-index: 2;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #1d3461;
+  margin-left: 0;
+  margin-bottom: 2px;
+}
+/* 1~3위는 amount 색상 유지 (배경이 아니므로 흰색 필요 없음) */
+article .achievement table tbody tr:first-child .currentPercentage .amount,
+article .achievement table tbody tr:nth-child(2) .currentPercentage .amount,
+article .achievement table tbody tr:nth-child(3) .currentPercentage .amount {
+  color: #1d3461;
+}
+/* 바 트랙 (회색 배경) */
+article .achievement table .currentPercentage::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  top: auto;
+  height: 8px;
+  width: auto;
+  background: #eef1f7;
+  border-radius: 4px;
+  z-index: 0;
+}
+/* 바 컨테이너 */
+article .achievement table .currentPercentage .bar {
+  position: absolute;
+  top: auto !important;
+  bottom: 8px;
+  left: 8px;
+  height: 8px;
+  border-radius: 4px;
+  overflow: visible;
+  z-index: 1;
+  transition: width 0.8s ease;
+}
+/* 기본 채움 바 */
+article .achievement table .currentPercentage .base {
+  background: #8f98b3;
+  height: 8px;
+  border-radius: 4px;
+  transition: width 0.8s ease;
+}
+/* 초과달성(100%+) 바 */
+article .achievement table .currentPercentage .over {
+  background: #e60073;
+  height: 8px;
+  border-radius: 0 4px 4px 0;
+  transition: width 0.8s ease;
+}
+/* 순위별 바 색상 */
+article .achievement table tbody tr:nth-child(1) .currentPercentage .base {
+  background: #1d3461;
+}
+article .achievement table tbody tr:nth-child(2) .currentPercentage .base {
+  background: #2f5299;
+}
+article .achievement table tbody tr:nth-child(3) .currentPercentage .base {
+  background: #5078c8;
+}
+/* 모바일 */
+@media only screen and (max-width: 1023px) {
+  article .achievement table td {
+    padding: 8px 4px 18px;
+  }
+  article .achievement table td.company-info {
+    max-width: 80px;
+    padding-bottom: 8px;
+  }
+  article .achievement table .currentPercentage .amount {
+    font-size: 11px;
+  }
+  article .achievement table .currentPercentage::before,
+  article .achievement table .currentPercentage .bar {
+    height: 6px;
+    bottom: 6px;
+  }
+  article .achievement table .currentPercentage .base,
+  article .achievement table .currentPercentage .over {
+    height: 6px;
+  }
+}
+
+/* trend — 시간별 차트 */
+article .trend {
+  border: 1px solid #e4e8f0;
+  border-radius: 10px;
+  padding: 20px 24px;
+  background: #fff;
+}
+
+/* trend 탭 — 기존 회색 박스 탭을 pill 스타일로 교체 */
+article .trend #chart-canvas-list h4.chart-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 90px;
+  padding: 6px 18px;
+  margin: 0 4px 16px 0;
+  border-radius: 20px;
+  border: 1px solid #dde2ee;
+  background: #f7f9fc;
+  color: #7b84a0;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+article .trend #chart-canvas-list h4.chart-tab:hover {
+  background: #eef2fa;
+  border-color: #b8c4de;
+  color: #1d3461;
+}
+article .trend #chart-canvas-list h4.chart-tab.active {
+  background: #1d3461;
+  border-color: #1d3461;
+  color: #fff;
+}
+/* 탭 아래 구분선 제거 */
+article .trend #chart-canvas-list section::before {
+  display: none;
+}
+/* 차트 캔버스 섹션 */
+article .trend #chart-canvas-list section.chart-board {
+  background: #fafbfd;
+  border: 1px solid #eef1f7;
+  border-radius: 8px;
+  padding: 16px 8px 8px;
+}
+/* 시간 라벨 */
+article .trend #chart-canvas-list .canvas-label {
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+article .trend #chart-canvas-list .canvas-label span.time {
+  font-size: 12px;
+  font-weight: 500;
+  color: #9298aa;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1023px) {
+  article .trend #chart-canvas-list h4.chart-tab {
+    min-width: 70px;
+    padding: 5px 12px;
+    font-size: 12px;
+  }
+}

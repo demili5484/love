@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+  x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16">
+  <path d="
+      M  11.5  0.75
+      L   4.5  7.75
+      T  11.5 14.75
+    "
+    stroke="#eb1478"
+    stroke-width="1.25"
+    stroke-linejoin="round"
+    stroke-linecap="round" fill="none"/>
+</svg>

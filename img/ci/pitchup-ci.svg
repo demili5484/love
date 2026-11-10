@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="340pt" height="80pt" viewBox="0 0 340 80" role="img" aria-labelledby="title desc">
+  <title id="title">Pitchup</title>
+  <desc id="desc">Pitchup wordmark with an upward pitch symbol.</desc>
+  <defs>
+    <linearGradient id="pitchup-mark" x1="10" y1="64" x2="70" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00A7A5"/>
+      <stop offset="1" stop-color="#5B7CFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect x="7" y="7" width="66" height="66" rx="17" fill="url(#pitchup-mark)"/>
+    <path d="M23 51.5 38 36.5 48 46.5 59 23" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M48.5 23H59v10.5" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="86" y="60" fill="#14213D" font-family="Montserrat, Poppins, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="0" textLength="242" lengthAdjust="spacingAndGlyphs">Pitchup</text>
+  </g>
+</svg>

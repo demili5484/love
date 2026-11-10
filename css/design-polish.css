@@ -1,0 +1,130 @@
+/* Shared public-site visual layer. Mirrored in love/css/design-polish.css. */
+:root {
+  --pu-ink: #172b43;
+  --pu-muted: #68788b;
+  --pu-line: #e3e9f0;
+  --pu-wash: #f5f7fb;
+  --pu-accent: #e82768;
+  --pu-radius: 0px;
+  --pu-shadow: 0 8px 28px rgb(23 43 67 / 6%);
+}
+html:root body { color: var(--pu-ink); letter-spacing: -.025em; background: #fff; -webkit-font-smoothing: antialiased; }
+html:root :where(a, button, input, select, textarea):focus-visible { outline: 3px solid #5089bc; outline-offset: 4px; }
+html:root button, html:root input, html:root select, html:root textarea { font-family: inherit; }
+html:root body > header { background: #fff; border-bottom: 1px solid var(--pu-line); box-shadow: 0 3px 16px rgb(23 43 67 / 3%); }
+html:root div.header-wrapper { padding-top: 10px; padding-bottom: 10px; }
+html:root div.header-wrapper .neo-gnb .common-menu a { color: var(--pu-muted); transition: color .18s; }
+html:root div.header-wrapper .neo-gnb .common-menu a:hover { color: var(--pu-accent); }
+html:root div.fullnav { border-color: var(--pu-line); border-radius: 0; box-shadow: 0 16px 48px rgb(23 43 67 / 14%); z-index: 30; }
+.pitchup-primary-nav { max-width: 1020px; margin: 0 auto; display: flex; gap: 30px; padding: 0 0 13px; overflow-x: auto; scrollbar-width: none; }
+.pitchup-primary-nav::-webkit-scrollbar { display: none; }
+.pitchup-primary-nav a { display: inline-flex; align-items: center; min-height: 36px; color: var(--pu-muted); text-decoration: none; font-size: 14px; font-weight: 600; white-space: nowrap; border-bottom: 2px solid transparent; transition: color .18s, border-color .18s; }
+.pitchup-primary-nav a:hover, .pitchup-primary-nav a[aria-current="page"] { color: var(--pu-accent); border-bottom-color: var(--pu-accent); }
+html:root #mainBanner:has(.swiper-wrapper) { background: #12253d; }
+html:root #mainBanner:has(.swiper-wrapper) .text-wrapper p.title { font-weight: 700; letter-spacing: -.055em; line-height: 1.4; text-wrap: balance; }
+html:root #mainBanner:has(.swiper-wrapper) .text-wrapper p.sub { line-height: 1.8; letter-spacing: -.015em; }
+html:root #mainBanner .text-wrapper a.front-banner-btn { border-radius: 0; font-weight: 600; transition: background .18s, box-shadow .18s; }
+html:root #mainBanner .text-wrapper a.front-banner-btn:hover { box-shadow: 0 5px 18px rgb(0 0 0 / 12%); }
+html:root .swap-zone { margin-top: 24px; margin-bottom: 16px; border: 1px solid var(--pu-line); border-radius: 0; box-shadow: var(--pu-shadow); background: #fff; overflow: hidden; }
+html:root .swap-zone .news-item { border-color: var(--pu-line); border-radius: 0; background: var(--pu-wash); }
+html:root .swap-zone .news-item:hover { background: #edf3fa; border-color: #c6d6e7; }
+html:root .news-item-title { color: var(--pu-ink); }
+html:root section.contest-list > h2 { color: var(--pu-ink); font-weight: 650; border-color: var(--pu-line); letter-spacing: -.04em; }
+html:root section.contest-list > h2 b { color: var(--pu-accent); }
+html:root ul.progress-list > li article, html:root ul.end-list > li article { border-color: var(--pu-line); border-radius: 0; box-shadow: var(--pu-shadow); overflow: hidden; transition: border-color .2s, box-shadow .2s; }
+html:root ul.progress-list > li article:hover, html:root ul.end-list > li article:hover { border-color: #b9cbdc; box-shadow: 0 12px 32px rgb(23 43 67 / 10%); }
+html:root ul.progress-list > li div.text-area > div:first-child, html:root ul.end-list > li div.text-area > div:first-child { border-bottom-color: var(--pu-line); }
+html:root ul.progress-list > li article div.image-area, html:root ul.end-list > li article div.image-area { border-right-color: var(--pu-line); }
+html:root ul.progress-list > li div.text-area > div:first-child h2, html:root ul.end-list > li div.text-area > div:first-child h2 { color: var(--pu-ink); }
+html:root ul.progress-list > li div.text-area .date, html:root ul.end-list > li div.text-area .date { color: var(--pu-muted); }
+html:root .rank-area { border-top-color: var(--pu-line); background: #fafbfd; }
+html:root .funding-item > a.card { border-radius: 0; overflow: hidden; border: 1px solid var(--pu-line); box-shadow: var(--pu-shadow); transition: box-shadow .2s, border-color .2s; }
+html:root .funding-item > a.card:hover { box-shadow: 0 12px 30px rgb(23 43 67 / 11%); border-color: #b9cbdc; }
+html:root .funding-item .content-wrapper .title { color: var(--pu-ink); line-height: 1.6; }
+html:root .funding-item .progress { border-radius: 0; overflow: hidden; }
+html:root #more-endContest-btn, html:root .view-more, html:root .btn-more { border: 1px solid #cbd6e2; background: #fff; color: var(--pu-ink); border-radius: 0; font-weight: 600; transition: background .18s, border-color .18s; }
+html:root #more-endContest-btn:hover, html:root .view-more:hover, html:root .btn-more:hover { border-color: var(--pu-accent); background: #fff5f8; color: var(--pu-accent); }
+html:root .changup-wrap { background: var(--pu-wash); }
+html:root .changup-hero { background: linear-gradient(120deg, #13283f, #264b6a); }
+html:root .changup-hero-title { letter-spacing: -.045em; line-height: 1.4; }
+html:root .changup-hero-sub { line-height: 1.8; }
+html:root .changup-card { border: 1px solid var(--pu-line); border-radius: 0; box-shadow: 0 4px 18px rgb(23 43 67 / 4%); transition: box-shadow .2s, border-color .2s; }
+html:root .changup-card:hover { border-color: #b9cbdc; box-shadow: 0 10px 26px rgb(23 43 67 / 9%); }
+html:root .changup-section-title { color: var(--pu-ink); }
+html:root .changup-notice-table { border-radius: 0; overflow: hidden; }
+html:root section.funding-map-section { background: var(--pu-wash); padding-top: 44px; padding-bottom: 40px; }
+html:root section.funding-map-section h2 { color: var(--pu-ink); letter-spacing: -.04em; }
+html:root section.funding-map-section .info { color: var(--pu-muted); line-height: 1.8; }
+html:root ul.regional-table { border-radius: 0; overflow: hidden; box-shadow: var(--pu-shadow); background: #fff; }
+html:root ul.regional-table li.data { transition: background .18s; }
+html:root ul.regional-table li.data:hover { background: #f0f5fa; }
+html:root section.youtube-view .video-wrapper { border-radius: 0; overflow: hidden; background: #13283f; }
+html:root .question-container, html:root #cheerLive { border-color: var(--pu-line); }
+html:root section.summary { color: var(--pu-ink); }
+html:root section.summary section.cover { border-radius: 0; overflow: hidden; }
+html:root section.detail { line-height: 1.8; }
+html:root section.menu { border-color: var(--pu-line); }
+html:root .modal-wrapper, html:root section.login .cover { border-radius: 0; }
+html:root section.login input:not([type=submit]):not([type=checkbox]):not([type=radio]), html:root .modal-content input:not([type=checkbox]):not([type=radio]) { border: 1px solid #d4dee9; border-radius: 0; background: #fafbfd; }
+html:root section.login input[type=submit], html:root .modal-confirm { border-radius: 0; font-weight: 600; }
+html:root body > footer .footer-wrapper { background: #f6f8fb; border-top: 1px solid var(--pu-line); }
+html:root body > footer .footer-wrapper .footer-wrapper-inner { padding-top: 42px; padding-bottom: 40px; }
+html:root body > footer .contact-info, html:root body > footer .copyright { color: var(--pu-muted); line-height: 1.8; }
+@media (min-width: 1024px) {
+  html:root #mainBanner:has(.swiper-wrapper) .text-wrapper p.title { font-size: 36px; }
+  html:root .contest-list > h2 { font-size: 24px; }
+  html:root ul.end-list > li + li, html:root ul.progress-list > li + li { margin-top: 28px; }
+}
+@media (max-width: 1023px) {
+  html:root div.header-wrapper { padding: 6px 16px; }
+  .pitchup-primary-nav { gap: 22px; padding: 0 20px 10px; }
+  .pitchup-primary-nav a { font-size: 13px; min-height: 34px; }
+  html:root .swap-zone { width: calc(100% - 32px); margin-left: 16px; margin-right: 16px; }
+  html:root section.contest-list { width: calc(100% - 32px); padding-top: 28px; padding-bottom: 24px; }
+  html:root section.contest-list > h2 { font-size: 19px; line-height: 1.5; margin-bottom: 20px; }
+  html:root ul.progress-list > li article, html:root ul.end-list > li article { border-radius: 0; }
+  html:root section.funding-map-section { padding-top: 30px; padding-bottom: 28px; }
+  html:root .changup-hero-title { font-size: 27px; }
+  html:root body > footer .footer-wrapper .footer-wrapper-inner { padding-top: 30px; padding-bottom: 28px; }
+}
+@media (max-width: 420px) {
+  html:root #mainBanner:has(.swiper-wrapper) .text-wrapper p.title { font-size: 18px; max-width: 90%; }
+  html:root #mainBanner .text-wrapper a.front-banner-btn { width: 29%; margin-right: 2px; font-size: 11px; }
+  .pitchup-primary-nav { gap: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:root *, html:root *::before, html:root *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+
+/* Rectangular UI; circular portraits and icon artwork remain unchanged. */
+html:root :is(.news-item,.news-badge,.badge,.changup-card,.changup-notice-table,.modal-wrapper,.modal-content,.front-banner-btn,.btn-more,.view-more,.funding-item>a.card,button,input:not([type=radio]):not([type=checkbox]),select,textarea) { border-radius: 0; }
+html:root #offline-dialog, html:root #offline-dialog button { border-radius: 0; }
+
+/* Contain borders within declared widths, including the statistics panel. */
+html:root .swap-zone, html:root .funding-item > a.card,
+html:root ul.end-list div.rank-area ol.ranking-list li { box-sizing: border-box; }
+html:root section.funding-map-section .funding-map-section-inner,
+html:root #mainBanner .swiper-button, html:root a.live-badge { border-radius: 0; }
+@media (max-width: 1023px) {
+  /* Keep the menu toggle above its full-screen menu so it remains closable. */
+  html:root div.header-wrapper .neo-gnb { z-index: 31; }
+  html:root div.fullnav.expand-delay { background: #fff; }
+  html:root div.fullnav .fullnav-circle-wrap { display: none; }
+  html:root section.funding-map-section .funding-map-section-inner { padding-left: 16px; padding-right: 16px; }
+  /* Flow text and CTAs in separate rows; absolute percentages overlap at 320px. */
+  html:root #mainBanner:has(.swiper-wrapper) .swiper-wrapper { height: 280px; }
+  html:root #mainBanner:has(.swiper-wrapper) .text-wrapper {
+    display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-content: center; gap: 12px 6px; box-sizing: border-box;
+    height: 280px; padding: 24px 16px 40px;
+  }
+  html:root #mainBanner:has(.swiper-wrapper) .text-wrapper p.title,
+  html:root #mainBanner:has(.swiper-wrapper) .text-wrapper p.sub {
+    position: static; grid-column: 1 / -1; padding: 0; margin: 0; max-width: none;
+  }
+  html:root #mainBanner:has(.swiper-wrapper) .text-wrapper a.front-banner-btn {
+    position: static; width: 100%; min-width: 0; height: auto; min-height: 34px;
+    margin: 0; padding: 6px 2px; line-height: 1.5; font-size: 12px;
+    display: flex; align-items: center; justify-content: center;
+  }
+}

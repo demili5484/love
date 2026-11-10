@@ -1,0 +1,10 @@
+{
+  "pages": 163,
+  "http_checks": 482,
+  "original_stylesheets_matched": 20,
+  "ended_contests": 13,
+  "startup_notices": 1459,
+  "missing_references": 0,
+  "database_requests_in_runtime": 0,
+  "browser_visual_comparison": "Home header visually checked at desktop and 390px mobile widths"
+}
